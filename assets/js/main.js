@@ -4,16 +4,16 @@ $('.owl-carousel').owlCarousel({
     padding: 10,
     nav:false,
     autoplay: true,
-    stagePadding:50,
+    stagePadding: 50,
     responsive:{
         0:{
-            items:1
+            items: 1
         },
         600:{
-            items:3
+            items: 3
         },
         1000:{
-            items:7
+            items: 7
         }
     }
 });
