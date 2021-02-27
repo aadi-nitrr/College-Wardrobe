@@ -1,205 +1,158 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>College Wardrobe</title>
+		<!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-<head>
-  <meta charset="utf-8">
-  <title>College Wardrobe</title>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="index.css">
-  <link rel="icon" href="favicon.ico" type="favicon.ico">
+		<link rel="stylesheet" href="assets/css/index.css">
+		<link rel="icon" href="assets/img/favicon.ico" type="favicon.ico">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+	</head>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+	<body>
 
-</head>
+		<!-- banner-area -->
+		<section>
+			<div class="banner-area">
+				<div class="header">
+					<nav>
+						<div class="logo"> <a href="."><img src="assets/img/c_logo.jpg"></a></div>
+						<!-- <a href="#" style="font-size:50px;margin-left:10px; ">NITRR Wardrobe</a> -->
+						<div class="menu">
+							<!--<a href="#" style="font-size: "></a>-->
+							<a href="#">home</a>
+							<a href="#" target="_blank">clubs</a>
+							<a href="#">sign up/log in</a>
+						</div>
+					</nav>
+				</div>
 
-<body>
-
-  <div class="banner-area">
-
-
-    <div class="header">
-      <nav>
-        <div class="logo"> <a href="index.html"><img src="c_logo.jpg"></a></div>
-        <!-- <a href="#" style="font-size:50px;margin-left:10px; ">NITRR Wardrobe</a> -->
-        <div class="menu">
-          <!--<a href="#" style="font-size: "></a>-->
-          <a href="#">home</a>
-          <a href="#" target="_blank">clubs</a>
-          <a href="#">sign up/log in</a>
-        </div>
-      </nav>
-    </div>
-
-
-
-    <div class="content-area">
-      <div class="content">
-        <h1>NITRR Wardrobe</h1>
-
-        <p>We Will Serve,We will Grow</p>
-
-      </div>
-    </div>
-</div>
+				<div class="content-area">
+					<div class="content">
+						<h1>NITRR Wardrobe</h1>
+						<p>We Will Serve,We will Grow</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- banner-area -->
 
 
+		<!-- login begin-->
+		<section id="login">
+			<div class="container mt-5" id="container">
+				<div class="form-container sign-up-container mt-2">
+					<form action="#">
+						<h1 class="font-weight-bold">Create Account</h1>
+						<div class="social-container">
+							<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+							<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+						</div>
+						<input type="text" placeholder="Name" />
+						<input type="email" placeholder="Email" />
+						<input type="password" placeholder="Password" />
+						<button class="btn btn-info btn-rounded">Sign up</button>
+					</form>
+				</div>
 
-<!-- login begin-->
+				<div class="form-container sign-in-container">
+					<form action="#">
+						<h1 class="font-weight-bold">Sign in</h1>
+						<div class="social-container">
+							<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+							<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+						</div>
+						<span>or use your account</span>
+						<input type="email" placeholder="Email" />
+						<input type="password" placeholder="Password" />
+						<button class="btn btn-info btn-rounded ">Sign In</button>
+					</form>
+				</div>
 
+				<div class="overlay-container">
+					<div class="overlay">
+						<div class="overlay-panel overlay-left">
+							<h1 class="font-weight-bold">Good to see you!</h1>
+							<p>You already have an account? <br>Sign in!</p>
+							<button class="but" id="signIn">Sign In</button>
+						</div>
+						<div class="overlay-panel overlay-right">
+							<h1 class="font-weight-bold">Welcome to Wardrobe of NITRR</h1>
+							<p>You don't have account yet? Don't worry! You still can join us</p>
+							<button class="but" id="signUp">Sign Up</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--login end-->
 
+		<!-- Birthday -->
+		<section>
+			<div class="birthday">
+				<h1>Happy Birthday🎂 Guys</h1>
+				<p>May all your dreams and wishes comes true😊</p>
+				<div class="owl-carousel owl-theme mx-5">
+					<div class="item">
+						<img src="assets/img/pic.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="assets/img/pic1.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="assets/img/pic2.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="assets/img/pic3.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="assets/img/pic4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="assets/img/pic5.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="assets/img/pic6.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="assets/img/pic7.jpeg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Birthday -->
 
-<div class="container mt-5" id="container">
-    <div class="form-container sign-up-container mt-2">
-      <form action="#">
-        <h1 class="font-weight-bold">Create Account</h1>
-        <div class="social-container">
-          <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-          <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-        <input type="text" placeholder="Name" />
-        <input type="email" placeholder="Email" />
-        <input type="password" placeholder="Password" />
-        <button class="btn btn-info btn-rounded">Sign up</button>
-      </form>
-    </div>
+		<section class="text-gray-600 body-font">
+			<div class="container2 px-5 py-24 mx-auto">
+				<div class="flex flex-wrap -m-4 text-center">
+					<div class="p-4 sm:w-1/4 w-1/2">
+						<h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">2.7K</h2>
+						<p class="leading-relaxed">Total pdfs</p>
+					</div>
+					<div class="p-4 sm:w-1/4 w-1/2">
+						<h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">1.8K</h2>
+						<p class="leading-relaxed">Total docs </p>
+					</div>
+					<div class="p-4 sm:w-1/4 w-1/2">
+						<h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">567</h2>
+						<p class="leading-relaxed"> Total ppts </p>
+					</div>
+					<div class="p-4 sm:w-1/4 w-1/2">
+						<h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">5.7k</h2>
+						<p class="leading-relaxed">Total files</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <div class="form-container sign-in-container">
-      <form action="#">
-        <h1 class="font-weight-bold">Sign in</h1>
-        <div class="social-container">
-          <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-          <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-        <span>or use your account</span>
-        <input type="email" placeholder="Email" />
-        <input type="password" placeholder="Password" />
-        <button class="btn btn-info btn-rounded ">Sign In</button>
-      </form>
-    </div>
-
-    <div class="overlay-container">
-      <div class="overlay">
-        <div class="overlay-panel overlay-left">
-          <h1 class="font-weight-bold">Good to see you!<h1>
-          <p>You already have an account? <br>Sign in!</p>
-          <button class="but" id="signIn">Sign In</button>
-        </div>
-        <div class="overlay-panel overlay-right">
-          <h1 class="font-weight-bold">Welcome to Wardrobe of NITRR</h1>
-          <p>You don't have account yet? Don't worry! You still can join us</p>
-          <button class="but" id="signUp">Sign Up</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<!--login end-->
-
-
-
-
-
-<div class="birthday">
-  <h1>Happy Birthday🎂 Guys</h1>
-  <p>May all your dreams and wishes comes true😊</p>
-  <div class="owl-carousel owl-theme mx-5">
-    <div class="item">
-      <img src="pic.jpg" alt="">
-      <p>Aditya</p>
-    </div>
-    <div class="item">
-      <img src="pic1.jpg" alt="">
-    </div>
-    <div class="item">
-      <img src="pic2.jpg" alt="">
-    </div>
-    <div class="item">
-      <img src="pic3.jpg" alt="">
-    </div>
-    <div class="item">
-      <img src="pic4.jpg" alt="">
-    </div>
-    <div class="item">
-      <img src="pic5.jpg" alt="">
-    </div>
-    <div class="item">
-      <img src="pic6.jpg" alt="">
-    </div>
-    <div class="item">
-      <img src="pic7.jpeg" alt="">
-    </div>
-</div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
-
-
-<script type="text/javascript">
-  $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:15,
-    padding: 10,
-    nav:false,
-    autoplay: true,
-    stagePadding:50,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:7
-        }
-    }
-})
-
-
-const signUpButton = document.getElementById('signUp');
-    const signInButton = document.getElementById('signIn');
-    const container = document.getElementById('container');
-
-    signUpButton.addEventListener('click', () => {
-      container.classList.add('right-panel-active');
-    });
-
-    signInButton.addEventListener('click', () => {
-      container.classList.remove('right-panel-active');
-    });
-
-</script>
-
-
-
-  <section class="text-gray-600 body-font">
-    <div class="container2 px-5 py-24 mx-auto">
-      <div class="flex flex-wrap -m-4 text-center">
-        <div class="p-4 sm:w-1/4 w-1/2">
-          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">2.7K</h2>
-          <p class="leading-relaxed">Total pdfs</p>
-        </div>
-        <div class="p-4 sm:w-1/4 w-1/2">
-          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">1.8K</h2>
-          <p class="leading-relaxed">Total docs </p>
-        </div>
-        <div class="p-4 sm:w-1/4 w-1/2">
-          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">567</h2>
-          <p class="leading-relaxed"> Total ppts </p>
-        </div>
-        <div class="p-4 sm:w-1/4 w-1/2">
-          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">5.7k</h2>
-          <p class="leading-relaxed">Total files</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
 </html>
