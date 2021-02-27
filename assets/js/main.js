@@ -25,3 +25,16 @@ $(document).on('click', '#signUp', function(){
 $(document).on('click', '#signIn', function(){
     $('#login .container').removeClass('right-panel-active');
 });
+
+$(window).scroll(function(){
+    if($(window).scrollTop()===0)
+    {
+        $('.navbar').removeClass('bg-primary');
+        $('.navbar').addClass('navbar-transparent');
+    }
+    else
+    {
+        $('.navbar').addClass('bg-primary');
+        $('.navbar').removeClass('navbar-transparent');
+    }
+});

@@ -19,50 +19,9 @@ body {
 	top: 0;
 }
 
-img {
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	padding: 5px;
-	width: 150px;
-	margin-left: 100px;
-}
-
-img:hover {
-	box-shadow: 0 0 5px 10px rgba(0, 140, 186, 0.5);
-}
-
-nav {
-	width: 100%;
-	height: 15vh;
-	background: rgba(0, 0, 0, 0.2);
-	color: white;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	text-transform: uppercase;
-}
-
-nav .logo {
-	width: 7%;
-	text-align: center;
-	/* background: red; */
-}
-
-nav .menu {
-	width: 40%;
-	display: flex;
-	justify-content: space-around;
-}
-
-nav .menu a:hover {
-	color: black;
-}
-
-nav .menu a {
-	width: 25%;
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
+.navbar-brand img {
+	width: auto;
+	height: 65px;
 }
 
 /*End Shiwam*/
@@ -318,3 +277,11 @@ input {
 
 
 /*login css end*/
+nav {
+	transition: 0.2s ease-in-out;
+}
+
+.navbar-transparent {
+	background-color: rgba(0, 0, 0, 0.22);
+	color: white;
+}
