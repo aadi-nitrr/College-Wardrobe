@@ -6,7 +6,9 @@
 }
 
 /*shiwam*/
-
+.navbar.bg-primary {
+	background-color: #33b5e5 !important;
+}
 .navbar-brand img {
 	width: auto;
 	height: 65px;
