@@ -8,7 +8,9 @@
 /*shiwam*/
 .navbar.bg-primary {
 	background-color: #33b5e5 !important;
+	box-shadow: 0 4px 10px rgba(3, 27, 78, 0.49) !important;
 }
+
 .navbar-brand img {
 	width: auto;
 	height: 65px;
