@@ -38,3 +38,5 @@ $(window).scroll(function(){
         $('.navbar').removeClass('navbar-transparent');
     }
 });
+
+$
