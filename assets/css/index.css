@@ -121,7 +121,7 @@ form {
 	text-align: center;
 }
 
-input {
+#login input {
 	background-color: lightblue;
 	border: none;
 	padding: 12px 15px;
@@ -346,8 +346,8 @@ p {
     border: none;
     border-bottom: 2px solid #eee;
     width: 100%;
-    resize: none
-		background-color: #ffffff00
+    resize: none;
+	background-color: #ffffff00;
 }
 
 .inputs textarea:focus {
