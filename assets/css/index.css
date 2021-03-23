@@ -304,6 +304,15 @@ nav {
 	text-align: left !important;
 }
 
+.address a {
+	color: #fff;
+}
+
+.address a:hover {
+	color: red;
+	cursor: pointer;
+}
+
 .address span {
     color: #fff;
 }
