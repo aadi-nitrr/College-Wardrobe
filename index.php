@@ -1,3 +1,9 @@
+<?php
+	include("config.php");
+	$con=connectDb();
+	$query="SELECT * FROM `pagelinks` WHERE `status`=1";
+	$res=mysqli_query($con, $query);
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 	<head>
@@ -32,11 +38,14 @@
 								Clubs
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="https://www.facebook.com/eclectika.nitrr">Eclectika(The Cultural Fest)</a></li>
-								<li><a class="dropdown-item" href="https://www.facebook.com/groups/vigyaan">Aavartan(The Technical Fest)</a></li>
-								<li><a class="dropdown-item" href="https://www.facebook.com/UBA2020NITRR">Unnat Bharat Abhiyan NIT Raipur</a></li>
-								<li><a class="dropdown-item" href="https://www.facebook.com/nssnitrr">National Service Scheme, NIT Raipur</a></li>
-								<li><a class="dropdown-item" href="https://www.facebook.com/clickclubnitrr">Click(The Photography Club)</a></li>
+								<?php
+									if($res!=false && mysqli_num_rows($res)!=0)
+									{
+										while($row=mysqli_fetch_assoc($res))
+										{
+								?>
+								<li><a class="dropdown-item" href="<?= $row['url'] ?>"><?= $row['name'] ?></a></li>
+								<?php }} ?>
 							</ul>
 						</li>
 						<li class="nav-item">
